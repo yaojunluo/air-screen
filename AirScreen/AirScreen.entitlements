@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- 接受来自局域网 iOS 设备的 AirPlay 连接 -->
+    <key>com.apple.security.network.server</key>
+    <true/>
+
+    <!-- 用于 mDNS/Bonjour 服务广播 -->
+    <key>com.apple.security.network.client</key>
+    <true/>
+
+    <!-- 允许访问 VideoToolbox 硬件解码器 -->
+    <key>com.apple.security.cs.allow-jit</key>
+    <false/>
+
+    <!-- 沙盒模式：开发阶段可关闭沙盒方便调试 -->
+    <!-- 上架 Mac App Store 需要开启沙盒并配置对应权限 -->
+    <key>com.apple.security.app-sandbox</key>
+    <false/>
+</dict>
+</plist>
