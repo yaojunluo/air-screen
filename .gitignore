@@ -1,0 +1,59 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/
+*.swiftpm
+.swift-version
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Derived files
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Misc
+.DS_Store
+*.log
+*.xcuserdatad
+*.xcscmblueprint
+
+# Public content/output (if generated)
+public/
+
+# macOS
+*.swp
+*~
+
+# Ignore temporary files
+*.tmp
+*.cache
+
+# Other IDEs
+.vscode/
+.idea/
+.claude
