@@ -1,5 +1,7 @@
 # AirScreen
 
+> Need 中文? [Switch to README.zh.md](README.zh.md)
+
 ## English
 
 ### Overview
@@ -29,4 +31,5 @@ AirScreen turns your Mac into a full AirPlay receiver. It handles discovery, RTS
 | ![App ready](public/start.png) | AirScreen ready to accept a connection |
 | ![Device connected](public/connected.png) | iPhone screen mirrored to the Mac |
 
-> Need 中文? [Switch to README.zh.md](README.zh.md)
+---
+> Friend link: [linux.do](https://linux.do/)
