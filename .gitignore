@@ -42,8 +42,6 @@ fastlane/test_output
 *.xcuserdatad
 *.xcscmblueprint
 
-# Public content/output (if generated)
-public/
 
 # macOS
 *.swp
